@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0d1527" />
+      <stop offset="100%" stop-color="#12102e" />
+    </linearGradient>
+
+    <!-- Vibrant Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="35%" stop-color="#818cf8" />
+      <stop offset="70%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+
+    <!-- Pill Gradient 1 -->
+    <linearGradient id="pillGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.05" />
+    </linearGradient>
+
+    <!-- Pill Gradient 2 -->
+    <linearGradient id="pillGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.05" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 44px;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+        fill: #94a3b8;
+      }
+      .tag-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 0.5px;
+      }
+
+      /* Dynamic animations */
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.08); }
+      }
+      @keyframes floatSlow1 {
+        0%, 100% { transform: translateY(0px) translateX(0px); }
+        50% { transform: translateY(-12px) translateX(6px); }
+      }
+      @keyframes floatSlow2 {
+        0%, 100% { transform: translateY(0px) translateX(0px); }
+        50% { transform: translateY(10px) translateX(-8px); }
+      }
+      @keyframes dashFlow {
+        to { stroke-dashoffset: -120; }
+      }
+
+      .floating-orb-1 {
+        transform-origin: 200px 100px;
+        animation: pulseGlow 7s ease-in-out infinite, floatSlow1 9s ease-in-out infinite;
+      }
+      .floating-orb-2 {
+        transform-origin: 1000px 240px;
+        animation: pulseGlow 8s ease-in-out infinite 1.5s, floatSlow2 11s ease-in-out infinite;
+      }
+      .grid-lines {
+        stroke: #1e293b;
+        stroke-opacity: 0.35;
+        stroke-width: 1;
+      }
+      .flow-path {
+        stroke-dasharray: 8 12;
+        animation: dashFlow 8s linear infinite;
+      }
+      .badge-float-1 {
+        animation: floatSlow1 6s ease-in-out infinite;
+      }
+      .badge-float-2 {
+        animation: floatSlow2 7s ease-in-out infinite;
+      }
+      .badge-float-3 {
+        animation: floatSlow1 8s ease-in-out infinite 1s;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Subtle Animated Grid Pattern in Background -->
+  <g class="grid-lines">
+    <line x1="100" y1="0" x2="100" y2="360" />
+    <line x1="250" y1="0" x2="250" y2="360" />
+    <line x1="400" y1="0" x2="400" y2="360" />
+    <line x1="550" y1="0" x2="550" y2="360" />
+    <line x1="700" y1="0" x2="700" y2="360" />
+    <line x1="850" y1="0" x2="850" y2="360" />
+    <line x1="1000" y1="0" x2="1000" y2="360" />
+    <line x1="1150" y1="0" x2="1150" y2="360" />
+
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+  </g>
+
+  <!-- Ambient Glowing Orbs in Background -->
+  <circle cx="200" cy="100" r="140" fill="#38bdf8" filter="url(#glow)" class="floating-orb-1" />
+  <circle cx="1020" cy="220" r="160" fill="#c084fc" filter="url(#glow)" class="floating-orb-2" />
+  <circle cx="600" cy="40" r="110" fill="#818cf8" opacity="0.2" filter="url(#glow)" />
+
+  <!-- Flowing Dynamic Data Lines (Background/Lower Layer) -->
+  <path d="M 60 290 Q 300 350, 600 290 T 1140 280" fill="none" stroke="url(#accentGrad)" stroke-width="2.5" opacity="0.4" class="flow-path" />
+  <path d="M 80 80 Q 400 20, 800 80 T 1120 70" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.3" class="flow-path" />
+
+  <!-- Dynamic Badges / Tech Pills placed safely along bottom and top corners so they never overlap typography -->
+  <g class="badge-float-1" transform="translate(80, 42)">
+    <rect width="130" height="30" rx="15" fill="url(#pillGrad1)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6"/>
+    <circle cx="18" cy="15" r="4" fill="#38bdf8" />
+    <text x="32" y="20" fill="#38bdf8" class="tag-text">COMPOSABLE</text>
+  </g>
+
+  <g class="badge-float-2" transform="translate(980, 42)">
+    <rect width="140" height="30" rx="15" fill="url(#pillGrad2)" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.6"/>
+    <circle cx="18" cy="15" r="4" fill="#c084fc" />
+    <text x="32" y="20" fill="#e879f9" class="tag-text">HEADLESS CMS</text>
+  </g>
+
+  <g class="badge-float-3" transform="translate(140, 305)">
+    <rect width="150" height="30" rx="15" fill="url(#pillGrad1)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.6"/>
+    <circle cx="18" cy="15" r="4" fill="#818cf8" />
+    <text x="32" y="20" fill="#a5b4fc" class="tag-text">OPEN SOURCE</text>
+  </g>
+
+  <g class="badge-float-1" transform="translate(910, 305)">
+    <rect width="180" height="30" rx="15" fill="url(#pillGrad2)" stroke="#f472b6" stroke-width="1.2" stroke-opacity="0.6"/>
+    <circle cx="18" cy="15" r="4" fill="#f472b6" />
+    <text x="32" y="20" fill="#f472b6" class="tag-text">CUSTOMER DATA (CDP)</text>
+  </g>
+
+  <!-- Central Visual Container (High contrast backdrop to ensure 100% foreground clarity) -->
+  <rect x="180" y="90" width="840" height="185" rx="16" fill="#0b1120" fill-opacity="0.75" stroke="#334155" stroke-width="1" stroke-opacity="0.6"/>
+
+  <!-- Foreground Title and Branding -->
+  <!-- Top Category Chip -->
+  <g transform="translate(485, 110)">
+    <rect width="230" height="26" rx="13" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="115" y="17" fill="#38bdf8" text-anchor="middle" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" letter-spacing="1">AWESOME ECOSYSTEM LIST</text>
+  </g>
+
+  <!-- Title Text -->
+  <text x="600" y="185" text-anchor="middle" class="title-text" fill="url(#accentGrad)">
+    Digital Experience Platform (DXP)
+  </text>
+
+  <!-- Subtitle Text -->
+  <text x="600" y="224" text-anchor="middle" class="subtitle-text">
+    Curated SaaS Solutions, Headless CMS, CDPs &amp; Open-Source Architectures
+  </text>
+
+  <!-- Accent Divider -->
+  <rect x="520" y="246" width="160" height="3" rx="1.5" fill="url(#accentGrad)" />
+
+  <!-- Outer Elegant Border -->
+  <rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="#334155" stroke-opacity="0.5" stroke-width="1.5" />
+</svg>
