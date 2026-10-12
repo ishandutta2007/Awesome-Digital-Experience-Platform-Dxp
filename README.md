@@ -59,67 +59,67 @@ The following SaaS platforms lead the managed enterprise DXP and composable digi
 
 Self-hosted, transparent, and developer-friendly DXP engines, headless content repositories, and experience frameworks. Ranked in descending order by GitHub stargazers count: 🌟
 
-- **[Strapi](https://github.com/strapi/strapi)** [![GitHub stars](https://img.shields.io/github/stars/strapi/strapi?style=social&color=white)](https://github.com/strapi/strapi/stargazers)  
+- **[Strapi](https://github.com/strapi/strapi)** [![GitHub_Stars](https://img.shields.io/github/stars/strapi/strapi?style=social&color=white)](https://github.com/strapi/strapi/stargazers)  
   *Leading Open-Source Headless CMS (JavaScript / TypeScript, MIT License)* 🚀  
   Fully customizable, API-first headless CMS built on Node.js. Offers instant REST and GraphQL APIs, customizable admin panels, role-based access control (RBAC), and webhooks. Migrations from proprietary platforms like Contentful are supported via migration tooling.
 
-- **[Ghost](https://github.com/TryGhost/Ghost)** [![GitHub stars](https://img.shields.io/github/stars/TryGhost/Ghost?style=social&color=white)](https://github.com/TryGhost/Ghost/stargazers)  
+- **[Ghost](https://github.com/TryGhost/Ghost)** [![GitHub_Stars](https://img.shields.io/github/stars/TryGhost/Ghost?style=social&color=white)](https://github.com/TryGhost/Ghost/stargazers)  
   *Modern Publishing DXP & Creator Platform (Node.js / JavaScript, MIT License)* 👻  
   High-performance headless-capable digital publishing platform and newsletter CMS. Built on modern Node.js architecture with native subscription tiers, payment integration, rich card-based editor, and headless front-end delivery.
 
-- **[Payload CMS](https://github.com/payloadcms/payload)** [![GitHub stars](https://img.shields.io/github/stars/payloadcms/payload?style=social&color=white)](https://github.com/payloadcms/payload/stargazers)  
+- **[Payload CMS](https://github.com/payloadcms/payload)** [![GitHub_Stars](https://img.shields.io/github/stars/payloadcms/payload?style=social&color=white)](https://github.com/payloadcms/payload/stargazers)  
   *Code-First Headless CMS & Application Framework (TypeScript / Next.js, MIT License)* ⚡  
   Native Next.js and TypeScript full-stack CMS engineered for developers. Features automatic GraphQL/REST generation, code-driven content collections, deep React component extensibility, and native database support (PostgreSQL, MongoDB, SQLite).
 
-- **[Directus](https://github.com/directus/directus)** [![GitHub stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers)  
+- **[Directus](https://github.com/directus/directus)** [![GitHub_Stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers)  
   *Open-Data Platform & Real-Time Headless CMS (Node.js / TypeScript, BSL-1.1 / Apache-2.0)* 🐰  
   Instant REST and GraphQL data layer wrapping any SQL database (PostgreSQL, MySQL, SQLite, Oracle). Functions as a composable backend-as-a-service and digital asset management hub with no-code data studio and granular permission rules.
 
-- **[WordPress](https://github.com/WordPress/WordPress)** [![GitHub stars](https://img.shields.io/github/stars/WordPress/WordPress?style=social&color=white)](https://github.com/WordPress/WordPress/stargazers)  
+- **[WordPress](https://github.com/WordPress/WordPress)** [![GitHub_Stars](https://img.shields.io/github/stars/WordPress/WordPress?style=social&color=white)](https://github.com/WordPress/WordPress/stargazers)  
   *Ubiquitous Web Experience Platform (PHP / MySQL, GPL-2.0)* 🌍  
   The world's most widely adopted open-source content engine, powering over 40% of the web. Features extensive plugin and theme ecosystems, block editing (Gutenberg), full site editing, and headless delivery via the native WordPress REST API and WPGraphQL.
 
-- **[TinaCMS](https://github.com/tinacms/tinacms)** [![GitHub stars](https://img.shields.io/github/stars/tinacms/tinacms?style=social&color=white)](https://github.com/tinacms/tinacms/stargazers)  
+- **[TinaCMS](https://github.com/tinacms/tinacms)** [![GitHub_Stars](https://img.shields.io/github/stars/tinacms/tinacms?style=social&color=white)](https://github.com/tinacms/tinacms/stargazers)  
   *Git-Backed Headless CMS for Jamstack & Next.js (TypeScript / React, Apache-2.0)* 🦙  
   Git-backed headless content engine with real-time visual editing. Stores Markdown and MDX files directly inside your Git repository, providing version control, zero database overhead, and automatic GraphQL content queries.
 
-- **[Umbraco CMS](https://github.com/umbraco/Umbraco-CMS)** [![GitHub stars](https://img.shields.io/github/stars/umbraco/Umbraco-CMS?style=social&color=white)](https://github.com/umbraco/Umbraco-CMS/stargazers)  
+- **[Umbraco CMS](https://github.com/umbraco/Umbraco-CMS)** [![GitHub_Stars](https://img.shields.io/github/stars/umbraco/Umbraco-CMS?style=social&color=white)](https://github.com/umbraco/Umbraco-CMS/stargazers)  
   *Flexible Open-Source .NET DXP Alternative (C# / .NET, MIT License)* ⚙️  
   Enterprise .NET CMS frequently deployed as a cost-effective alternative to Sitecore. Provides intuitive back-office editing, headless delivery via Delivery API, strong performance, and integration hooks for DAM, ERP, and commerce solutions.
 
-- **[ApostropheCMS](https://github.com/apostrophecms/apostrophe)** [![GitHub stars](https://img.shields.io/github/stars/apostrophecms/apostrophe?style=social&color=white)](https://github.com/apostrophecms/apostrophe/stargazers)  
+- **[ApostropheCMS](https://github.com/apostrophecms/apostrophe)** [![GitHub_Stars](https://img.shields.io/github/stars/apostrophecms/apostrophe?style=social&color=white)](https://github.com/apostrophecms/apostrophe/stargazers)  
   *In-Context Modular Node.js CMS & Multi-Site DXP (Node.js / JavaScript, MIT License)* ✏️  
   Modular JavaScript CMS featuring on-page visual editing, drag-and-drop layouts, and multi-tenant site provisioning through Apostrophe Assembly. Supports unlimited locales without subscription fees.
 
-- **[Drupal](https://github.com/drupal/drupal)** [![GitHub stars](https://img.shields.io/github/stars/drupal/drupal?style=social&color=white)](https://github.com/drupal/drupal/stargazers)  
+- **[Drupal](https://github.com/drupal/drupal)** [![GitHub_Stars](https://img.shields.io/github/stars/drupal/drupal?style=social&color=white)](https://github.com/drupal/drupal/stargazers)  
   *Enterprise Open-Source DXP Foundation (PHP / Symfony, GPL-2.0)* 💧  
   Enterprise-grade digital experience platform engine powering global brand portals and public sector sites. Serves as the open core foundation for Acquia DXP, featuring advanced taxonomy, modular entity structures, multilingual governance, and headless JSON:API.
 
-- **[Pimcore](https://github.com/pimcore/pimcore)** [![GitHub stars](https://img.shields.io/github/stars/pimcore/pimcore?style=social&color=white)](https://github.com/pimcore/pimcore/stargazers)  
+- **[Pimcore](https://github.com/pimcore/pimcore)** [![GitHub_Stars](https://img.shields.io/github/stars/pimcore/pimcore?style=social&color=white)](https://github.com/pimcore/pimcore/stargazers)  
   *Unified Data & Digital Experience Platform (PHP / Symfony, GPL-3.0)* 📦  
   Open platform integrating Product Information Management (PIM), Master Data Management (MDM), Digital Asset Management (DAM), Content Management (CMS), and digital commerce in a single centralized architecture.
 
-- **[Liferay Portal](https://github.com/liferay/liferay-portal)** [![GitHub stars](https://img.shields.io/github/stars/liferay/liferay-portal?style=social&color=white)](https://github.com/liferay/liferay-portal/stargazers)  
+- **[Liferay Portal](https://github.com/liferay/liferay-portal)** [![GitHub_Stars](https://img.shields.io/github/stars/liferay/liferay-portal?style=social&color=white)](https://github.com/liferay/liferay-portal/stargazers)  
   *Enterprise Open-Source Digital Experience Platform (Java / OSGi, LGPL-2.1)* 🏛️  
   Open core of Liferay DXP providing role-based portals, content management, workflow automation, and collaboration workspaces. Supports Kubernetes and GCP deployments across major enterprise relational databases.
 
-- **[dotCMS Core](https://github.com/dotCMS/core)** [![GitHub stars](https://img.shields.io/github/stars/dotCMS/core?style=social&color=white)](https://github.com/dotCMS/core/stargazers)  
+- **[dotCMS Core](https://github.com/dotCMS/core)** [![GitHub_Stars](https://img.shields.io/github/stars/dotCMS/core?style=social&color=white)](https://github.com/dotCMS/core/stargazers)  
   *Hybrid-Headless Java Digital Experience Platform (Java, GPL-3.0)* 🎯  
   Scalable hybrid DXP supporting API-first headless content delivery alongside visual drag-and-drop page authoring, multi-site management, and personalization workflows.
 
-- **[Silverstripe CMS](https://github.com/silverstripe/silverstripe-cms)** [![GitHub stars](https://img.shields.io/github/stars/silverstripe/silverstripe-cms?style=social&color=white)](https://github.com/silverstripe/silverstripe-cms/stargazers)  
+- **[Silverstripe CMS](https://github.com/silverstripe/silverstripe-cms)** [![GitHub_Stars](https://img.shields.io/github/stars/silverstripe/silverstripe-cms?style=social&color=white)](https://github.com/silverstripe/silverstripe-cms/stargazers)  
   *Extensible Content Management Framework (PHP, BSD-3-Clause)* 🔷  
   Intuitive web application framework and content manager with decoupled headless APIs, flexible data modeling, and developer tooling.
 
-- **[Apache Unomi](https://github.com/apache/unomi)** [![GitHub stars](https://img.shields.io/github/stars/apache/unomi?style=social&color=white)](https://github.com/apache/unomi/stargazers)  
+- **[Apache Unomi](https://github.com/apache/unomi)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/unomi?style=social&color=white)](https://github.com/apache/unomi/stargazers)  
   *Open-Source Customer Data Platform & Personalization Engine (Java / OSGi, Apache-2.0)* 🛡️  
   OASIS Context Server reference implementation for collecting customer profiles, tracking real-time web events, and executing rules-based audience segmentation with full GDPR compliance.
 
-- **[Crafter CMS](https://github.com/craftersoftware/craftercms)** [![GitHub stars](https://img.shields.io/github/stars/craftersoftware/craftercms?style=social&color=white)](https://github.com/craftersoftware/craftercms/stargazers)  
+- **[Crafter CMS](https://github.com/craftersoftware/craftercms)** [![GitHub_Stars](https://img.shields.io/github/stars/craftersoftware/craftercms?style=social&color=white)](https://github.com/craftersoftware/craftercms/stargazers)  
   *Git-Based Composable DXP (Java / Spring, GPL-3.0)* 🛠️  
   Decoupled CMS separating content authoring (Crafter Studio) from headless delivery (Crafter Engine) with Git-backed version control and DevContentOps workflow automation.
 
-- **[Bloomreach Experience CMS Community](https://github.com/bloomreach/brxm)** [![GitHub stars](https://img.shields.io/github/stars/bloomreach/brxm?style=social&color=white)](https://github.com/bloomreach/brxm/stargazers)  
+- **[Bloomreach Experience CMS Community](https://github.com/bloomreach/brxm)** [![GitHub_Stars](https://img.shields.io/github/stars/bloomreach/brxm?style=social&color=white)](https://github.com/bloomreach/brxm/stargazers)  
   *Enterprise Open-Source Java CMS Core (Java, Apache-2.0)* 🌺  
   The open core framework behind Bloomreach's commercial experience platform, delivering flexible component-based page composition and multi-channel content APIs.
 
